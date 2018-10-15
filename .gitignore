@@ -4,3 +4,14 @@
 Homestead.yaml
 Homestead.json
 .env
+
+
+app/Console
+app/Events
+app/Exceptions
+app/Http/Controllers/Auth
+app/Middleware
+app/Requests
+app/Http/Kernel.php
+app/Jobs
+app/Providers
