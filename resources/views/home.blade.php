@@ -19,8 +19,8 @@
     <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="/css/resume.css" rel="stylesheet">
-
+    <link href="{{ asset('public/css/resume.css') }}" rel="stylesheet"> 
+    
   </head>
 
   <body id="page-top">
