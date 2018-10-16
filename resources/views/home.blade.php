@@ -13,14 +13,19 @@
     <!-- Bootstrap core CSS -->
     <link href="{{ asset('public/css/bootstrap.min.css') }}" rel="stylesheet">
 
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    
     <!-- Custom fonts for this template -->
     <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet">  
     <link href="{{ asset('public/fontawesome-free/css/all.min.css') }}" rel="stylesheet">
+    
+    <link href="/fontawesome-free/css/all.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
     <link href="{{ asset('public/css/resume.css') }}" rel="stylesheet"> 
     
+    <link href="/css/resume.css" rel="stylesheet">
   </head>
 
   <body id="page-top">
@@ -29,7 +34,7 @@
       <a class="navbar-brand js-scroll-trigger" href="#page-top">
         <span class="d-block d-lg-none">Clarence Taylor</span>
         <span class="d-none d-lg-block">
-          <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="/public/img/profile.jpg" alt="">
+          <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="/img/profile.jpg" alt="">
         </span>
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -286,14 +291,14 @@
     </div>
 
     <!-- Bootstrap core JavaScript -->
-    <script src="{{ asset('public/js/jquery.min.js') }}"></script>
-    <script src="{{ asset('public/js/bootstrap.bundle.min.js')}}"></script>
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/bootstrap.bundle.min.js"></script>
 
     <!-- Plugin JavaScript -->
-    <script src="{{ asset('public/js/jquery.easing.min.js')}}"></script>
+    <script src="/js/jquery.easing.min.js"></script>
     
     <!-- Custom scripts for this template -->
-    <script src="{{ asset('public/js/resume.min.js')}}"></script>
+    <script src="/js/resume.min.js"></script>
 
   </body>
 
